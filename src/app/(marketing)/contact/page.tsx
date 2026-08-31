@@ -51,8 +51,8 @@ export default function ContactPage() {
               </div>
               <div className="space-y-2">
                 <Label htmlFor="size">Company Size</Label>
-                <select id="size" className="flex h-10 w-full rounded-md border border-border bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2">
-                  <option value="" disabled selected>Select company size</option>
+                <select id="size" defaultValue="" className="flex h-10 w-full rounded-md border border-border bg-background px-3 py-2 text-sm ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2">
+                  <option value="" disabled>Select company size</option>
                   <option value="1-10">1-10 employees</option>
                   <option value="11-50">11-50 employees</option>
                   <option value="51-200">51-200 employees</option>

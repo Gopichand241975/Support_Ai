@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
@@ -165,7 +166,7 @@ export default function SettingsPage() {
                     <h3 className="text-sm font-semibold text-red-600">Danger Zone</h3>
                     <p className="text-sm text-muted-foreground mt-1">Permanently delete your account and all data.</p>
                   </div>
-                  <Button variant="destructive">Delete Account</Button>
+                  <Button variant="outline" className="text-red-600 border-red-600 hover:bg-red-50 hover:text-red-700">Delete Account</Button>
                 </div>
               </CardContent>
             </Card>
